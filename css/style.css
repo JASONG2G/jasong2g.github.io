@@ -1,0 +1,41 @@
+ul {
+    grid-template:
+    "left right";
+    
+}
+
+.navbar ul {
+    border-bottom: 1px solid black;
+}
+
+.left {
+    grid-area: left;
+}
+
+.right {
+    grid-area: right;
+    justify-content: flex-end;
+}
+.right li {
+    padding-left: 8px;
+}
+
+.navbar {
+    background-color: #ddd;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);;
+}
+
+header h1 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
