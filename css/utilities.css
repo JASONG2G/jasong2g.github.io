@@ -49,6 +49,28 @@ img {
     padding: 0 40px;
 }
 
+.hero-container {
+    display: grid;
+    align-items: center;
+    grid-gap: 20px;
+    grid-template:
+      "best-seller card-a card-b card-c";
+}
+
+.best-seller {
+    grid-area: best-seller;
+  }
+
+.card-a {
+    grid-area: card-a;
+}
+.card-b {
+    grid-area: card-b;
+}
+.card-c {
+    grid-area: card-c;
+}
+
 .grid {
     display: grid;
     grid-gap: 20px;
